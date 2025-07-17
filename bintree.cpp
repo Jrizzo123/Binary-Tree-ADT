@@ -153,7 +153,6 @@ bool BinTree::contains(int id, DataNode* temproot) { //private
         }
         else if (id < temproot->data.id) {
             result = contains(id, temproot->left); 
-
         }
         else if (id > temproot->data.id) {
             result = contains(id, temproot->right);
@@ -198,7 +197,6 @@ bool BinTree::getNode(Data* tempdata, int id, DataNode* temproot) { //private
 int BinTree::getHeight() { //public
     return getHeight(root);
 }
-
 //getHeight is most likely longer than it needs to be, but I could not find another way without going too deeply into it
 int BinTree::getHeight(DataNode* temproot) { //private
     int lh{ 0 };
@@ -239,7 +237,6 @@ void BinTree::clear(DataNode* temproot) { //private
         delete temproot;
     }
 }
-
 bool BinTree::removeNode(int id) { //private
     int tempcount{ count };
     bool result{ false };
