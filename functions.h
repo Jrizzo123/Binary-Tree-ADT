@@ -5,4 +5,4 @@
 
 int random_range(int, int);
 
-#endif /* BINTREE_HEADER_H */
+#endif
