@@ -53,7 +53,6 @@ private:
 	//private method to help with removeNode method
 	DataNode* minValueNode(DataNode*);
 
-
 };
 
 
