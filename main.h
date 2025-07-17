@@ -11,4 +11,4 @@
 using std::cout;
 using std::endl;
 
-#endif /* BINTREE_MAIN_H */
+#endif
