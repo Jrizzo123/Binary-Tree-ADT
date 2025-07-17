@@ -198,8 +198,5 @@ int main(int argc, char** argv) {
     //delete tree and make sure the destructor works
     delete binSearchTree;
 
-
-
-
     return 0;
 }
