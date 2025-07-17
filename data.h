@@ -14,4 +14,4 @@ struct DataNode {
     DataNode *left, *right;
 };
 
-#endif /* DATA_H */
+#endif 
